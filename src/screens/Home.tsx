@@ -1,5 +1,5 @@
 import React from "react";
-import { increment, decrement, incrementByAmount } from "../redux/reducers/countReducer";
+import { increment, decrement, incrementByAmount } from "../features/slices/counterSlice";
 import { useDispatch, useSelector } from "react-redux";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 

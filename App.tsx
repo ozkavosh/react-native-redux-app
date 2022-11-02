@@ -1,6 +1,6 @@
 import React from "react";
 import {Provider} from "react-redux";
-import store from "./src/redux/store";
+import store from "./src/features/store";
 import Home from "./src/screens/Home";
 
 const App = () => {
